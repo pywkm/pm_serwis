@@ -1,0 +1,256 @@
+.producenci {
+  margin: 2em 0;
+}
+
+.producenci span {
+  display: inline-block;
+  width: 11em;
+  height: 6em;
+  font-size: 18px;
+  margin: 5px;
+  position: relative;
+  text-align: right;
+}
+
+.producenci span a {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: -10%;
+}
+
+.producenci span a div {
+  width: 100%;
+  background-color: rgba(0, 0, 0, .1);
+  border-radius: 5px;
+  padding-right: 5px;
+  position: absolute;
+  bottom: 0;
+}
+
+.producenci span a:hover {
+  bottom: 0;
+  color: #279cc3;
+}
+
+.producenci span a div:hover {
+  background-color: rgba(39, 156, 195, .2);
+}
+
+.logo.wolf {
+  background: url(../img/wolf.png);
+}
+
+.logo.broetje {
+  background: url(../img/broetje.png);
+}
+
+.logo.robur {
+  background: url(../img/robur.png);
+}
+
+.logo.vaillant {
+  background: url(../img/vaillant.png);
+}
+
+.logo.immergas {
+  background: url(../img/immergas.png);
+}
+
+.logo.viessmann {
+  background: url(../img/viessmann.png);
+}
+
+.logo.buderus {
+  background: url(../img/buderus.png);
+}
+
+.logo.riello {
+  background: url(../img/riello.png);
+}
+
+.logo.giersch {
+  background: url(../img/giersch.png);
+}
+
+.logo.weishaupt {
+  background: url(../img/weishaupt.png);
+}
+
+.producenci .logo {
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+span.red {
+  color: rgba(216, 16, 19, 1.0);
+}
+
+span.blue {
+  color: rgb(39, 156, 195);
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+@media(min-width:768px) {
+  p {
+    font-size: 20px;
+  }
+}
+
+@media(max-width:767px) {
+  #main-slider h1 {
+    font-size: 48px;
+  }
+
+  .box h2 {
+    font-size: 36px;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    max-width: none;
+    height: 3em;
+    width: 300px;
+    padding: 1em;
+    margin-right: 1em;
+    font-size: 14px;
+    line-height: 18px;
+    color: #999;
+  }
+
+
+  @media(max-width:480px) {
+
+    .navbar-default .navbar-nav > li > a {
+      margin-right: 0;
+      line-height: 16px;
+      width: 14em;
+    }
+    
+    .navbar-default .navbar-nav > li {    
+    }
+
+    .navbar-default {
+      width: 14em;
+      float: left;
+    }
+
+    .navbar-default .navbar-brand {
+      margin-right: 10px;
+      margin-left: 10px;
+      width: 110px;
+      height: 50px;
+      background: url(../img/pmserwis-logo.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+    }
+    .producenci span {
+      width: 6em;
+      height: 4em;
+    }
+  }
+}
+
+
+#ogrzewanie {
+  margin-top: -5em;
+  padding-top: 4em;
+}
+
+#doradztwo-techniczne .container .box {
+  min-height: 30em;
+}
+
+/* #o-nas .container .box {
+  min-height: 50em;
+} */
+
+p .brand {
+  display: inline-block;
+  margin: 0 -.7em -0.2em;
+  padding: 0;
+  width: 110px;
+  height: 30px;
+  background: url(../img/pmserwis-logo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.btn.btn-info {
+  background-color: rgba(216, 16, 19, .7);
+}
+
+.btn.btn-info:hover {
+  background-color: rgba(216, 16, 19, 1);
+}
+
+#contact .shaded {
+  background-color: black;
+  border-radius: 0 0 7px 7px;
+
+}
+
+#contact .box {
+  background-color: rgba(39, 156, 195, .6);
+  color: rgba(255, 255, 255, .7);
+}
+
+#contact .box a {
+  color: rgba(255, 255, 255, .7);
+}
+
+#contact .box input[type="text"],
+#contact .box input[type="email"],
+#contact .box textarea {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+#contact .box input[type="text"]:focus,
+#contact .box input[type="email"]:focus,
+#contact .box textarea:focus {
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.form-control {
+  color: white;
+}
+
+.form-control::-moz-placeholder {
+  color: rgba(255, 255, 255, .3);
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: rgba(255, 255, 255, .3);
+}
+.form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, .3);
+}
+
+address .bright {
+  color: white;
+}
+
+#doradztwo-techniczne ul {
+  font-size: 18px;
+}
+
+@media(min-width:768px) {
+  #doradztwo-techniczne ul {
+    font-size: 20px;
+  }
+}
+
+#klimatyzacja,
+#doradztwo-techniczne {
+  background-color: #f8f8f8;
+}
